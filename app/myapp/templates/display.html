@@ -1,18 +1,21 @@
 <center>
-	<h1> display product </h1>
+	<h1> Display product </h1>
+
 	<table border=3>
 		<tr>
-			<td>product name<td>product brand<td>product price<td>product stock
+			<td>PName<td>PBrand<td>PPrice<td>Stock
 		</tr>
 
 		{% for d in data %}
-
+		
 		<tr>
-			<td>{{d.pname}}<td>{{d.pbrand}}<td>{{d.pprice}}<td>{{d.pstock}}
+			<td>{{d.PName}}<td>{{d.PBrand}}<td>{{d.PPrice}}<td>{{d.Stock}}
 		</tr>
 
 		{% endfor %}
 	</table>
-	
-<a href='/add/'> add new product </a><br>
-<a href='/'> home page </a>		
+
+	<a href='/'> home page </a><br>
+	<a href='/add/'>add new product</a><br>
+
+</center>

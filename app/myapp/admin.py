@@ -1,5 +1,4 @@
 from django.contrib import admin
-from .models import promodel
-admin.site.register(promodel)
+from .models import prodmodel
+admin.site.register(prodmodel)
 # Register your models here.
-
